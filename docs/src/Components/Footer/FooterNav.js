@@ -29,7 +29,7 @@ const FooterNav = () => {
 				},
 				{
 					title: 'Manual Install',
-					href: 'https://github.com/DarhkVoyd/Toppings',
+					href: 'https://github.com/enrich-platforms/Toppings',
 				},
 			],
 		},
@@ -39,7 +39,7 @@ const FooterNav = () => {
 				{ title: 'Donate', href: 'https://github.com/sponsors/DarhkVoyd' },
 				{
 					title: 'Contribute',
-					href: 'https://github.com/DarhkVoyd/Toppings/tree/dev',
+					href: 'https://github.com/enrich-platforms/Toppings/tree/dev',
 				},
 				{
 					title: 'Help Us Improve',
@@ -47,7 +47,7 @@ const FooterNav = () => {
 				},
 				{
 					title: 'Report bugs',
-					href: 'https://github.com/DarhkVoyd/Toppings/issues',
+					href: 'https://github.com/enrich-platforms/Toppings/issues',
 				},
 				{ title: 'Support', href: 'mailto:support@grabtoppings.xyz' },
 			],
