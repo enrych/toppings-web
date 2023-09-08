@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.42d22ee8.css",
+    "main.js": "/static/js/main.b2c3c829.js",
+    "static/media/settings-page.mov": "/static/media/settings-page.bb8d769747ca6d69a985.mov",
+    "static/media/greetings_illustration.png": "/static/media/greetings_illustration.a2c5edc1466b0ee6d71a.png",
+    "static/media/hero_illustration.png": "/static/media/hero_illustration.7aca2edd8782c577d398.png",
+    "static/media/farewell_illustration.png": "/static/media/farewell_illustration.82401ca7d2ad1804d564.png",
+    "static/media/feature1.png": "/static/media/feature1.e9638482858a01826bac.png",
+    "static/media/opening-popup-2.png": "/static/media/opening-popup-2.76db1c3d08e0e354ff9b.png",
+    "static/media/feature3.png": "/static/media/feature3.651318c553899498284d.png",
+    "static/media/browser.png": "/static/media/browser.02aca3f8e48d055165af.png",
+    "static/media/icon512.png": "/static/media/icon512.02aca3f8e48d055165af.png",
+    "static/media/opening-popup-1.png": "/static/media/opening-popup-1.bd77e978d7e697ba4817.png",
+    "static/media/opening-settings-2.png": "/static/media/opening-settings-2.cb7e2a5ba9fd74c3f0bf.png",
+    "static/media/opening-settings-1.png": "/static/media/opening-settings-1.ad17fcbe8a338ddbafa0.png",
+    "static/media/feature2.png": "/static/media/feature2.ae8045764f98841c1cf1.png",
+    "static/media/pinning-2.png": "/static/media/pinning-2.aa604b62d6d44449e1bc.png",
+    "static/media/pinning-1.png": "/static/media/pinning-1.b15ffee5793c6bde69e0.png",
+    "static/media/uni-sans.heavy-caps.otf": "/static/media/uni-sans.heavy-caps.de76b17291d74c0a03b0.otf",
+    "static/media/question-mark.png": "/static/media/question-mark.c8323ba71ddd89521e51.png",
+    "static/media/form.png": "/static/media/form.a432def63b2b5f159f99.png",
+    "static/media/firefox.svg": "/static/media/firefox.aa81b5ba848d9d0971d2.svg",
+    "static/media/chrome.svg": "/static/media/chrome.46b75799656f993276a8.svg",
+    "index.html": "/index.html",
+    "main.42d22ee8.css.map": "/static/css/main.42d22ee8.css.map",
+    "main.b2c3c829.js.map": "/static/js/main.b2c3c829.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42d22ee8.css",
+    "static/js/main.b2c3c829.js"
+  ]
+}
