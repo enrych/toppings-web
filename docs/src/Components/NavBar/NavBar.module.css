@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
+
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	z-index: 1;
+	/* transition: all 0.3s ease-in-out; */
+}
+
+nav .logo {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	margin-left: 20px;
+}
+
+nav .logo h1 {
+	display: block;
+	font-family: 'Akronim', cursive;
+	font-size: 2em;
+	font-weight: 400;
+	line-height: 1.5;
+	-webkit-font-smoothing: subpixel-antialiased;
+	-webkit-text-stroke: 1px transparent;
+}
+
+nav .logo img {
+	height: 40px;
+	margin-right: 10px;
+}
+
+nav.fixed {
+	background-color: white;
+	box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav .hidden {
+	opacity: 0;
+	visibility: hidden;
+}
+
+nav.active .visible {
+	opacity: 1;
+	visibility: visible;
+}
+
+nav .cta {
+	font-size: 16px;
+	margin-right: 10px;
+}
+
+@media (pointer: none), (pointer: coarse) {
+	nav {
+		/* background-color: white; */
+		/* justify-content: center; */
+	}
+
+	nav .cta {
+		display: none;
+	}
+}

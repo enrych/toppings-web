@@ -1,0 +1,163 @@
+body {
+	background: white;
+}
+
+.wrapper {
+	position: relative;
+	top: 0;
+	left: 0;
+	margin: 0 auto;
+	padding: 0rem 2rem 2rem 2rem;
+	width: 100vw;
+	overflow: hidden;
+}
+
+.contents {
+	display: none;
+}
+
+.contents__heading {
+	font-size: 2.1rem;
+}
+
+.contents__link {
+	color: black;
+	text-decoration: none;
+}
+
+.contents__link:hover {
+	filter: drop-shadow(0 0.37vh 1.2vh rgba(0, 0, 0, 0.4));
+}
+
+.howto__header {
+	padding: 30px 0px 0px 0px;
+}
+
+h2.howto__heading {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2rem;
+	color: black;
+	margin-bottom: 2rem;
+}
+
+.howto__text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.1rem;
+}
+
+.howto__link {
+	color: blue;
+}
+
+.container {
+	padding: 30px 0px 0px 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.container li {
+	margin-bottom: 6px;
+}
+
+.howto__subheading {
+	margin-bottom: 10px;
+}
+
+.illustration__container {
+	margin: 2rem 0rem;
+	display: flex;
+	justify-content: flex-start;
+	filter: drop-shadow(0 0.37vh 1.2vh rgba(0, 0, 0, 0.4));
+}
+
+/* UI */
+.relative {
+	position: relative;
+}
+
+.relative > img {
+	border-radius: 6px;
+	width: 100%;
+	height: auto;
+}
+
+.overlay {
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.illustration__fade {
+	animation-name: fade;
+	animation-duration: 3.5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease;
+}
+
+@media (min-width: 1024px) {
+	.wrapper {
+		flex-direction: row;
+		justify-content: center;
+		align-items: flex-start;
+	}
+
+	.contents {
+		position: fixed;
+		left: 0;
+		/* height: 100vh; */
+		display: flex;
+		flex-direction: column;
+		overflow-y: scroll;
+		width: 20vw;
+	}
+
+	.contents__heading {
+		font-weight: 600;
+		font-size: 28px;
+		padding: 2rem 2rem 0.5rem 2rem;
+	}
+
+	.contents__link {
+		font-size: 16px;
+		padding: 0.6rem 2rem 0.6rem 2rem;
+		width: 100%;
+	}
+
+	.how__to {
+		position: relative;
+		top: 0;
+		left: 20vw;
+		width: 80vw;
+		padding-right: 2rem;
+	}
+
+	.howto__header {
+		padding: 2rem 2rem 0.5rem 2rem;
+	}
+
+	.container {
+		padding: 1rem 2rem;
+	}
+
+	.relative > img {
+		height: 35vh;
+		width: auto;
+	}
+
+	img.vh50 {
+		height: 50vh;
+		width: auto;
+	}
+}
+
+@keyframes fade {
+	0%,
+	100% {
+		opacity: 0;
+	}
+	60% {
+		opacity: 1;
+	}
+}

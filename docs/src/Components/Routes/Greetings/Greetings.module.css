@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Amarante&family=Diphylleia&family=Bungee+Shade&display=swap');
+
+.greetings {
+	background-color: #f2f2f2;
+	position: relative;
+	top: 0;
+	left: 0;
+	margin: 0 auto;
+	align-content: center;
+	overflow-x: hidden;
+	width: 100vw;
+}
+
+.greetings-wrapper {
+	padding: 4rem 1.5rem 2rem 1.5rem;
+	display: grid;
+	grid-template-columns: 1fr;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	text-align: center;
+	overflow-x: hidden;
+}
+
+.greetings-content {
+	padding: 0rem 2rem;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	overflow-x: hidden;
+}
+
+.greetings-graphics {
+	order: -1;
+	margin: 4rem 1rem 2rem 1rem;
+}
+
+.greetings-graphics > img {
+	width: 90vw;
+	filter: drop-shadow(0 0.37vh 1.2vh rgba(0, 0, 0, 0.25));
+	object-fit: contain;
+	user-select: none;
+}
+
+.greetings h2 {
+	font-family: 'Bungee Shade', sans-serif;
+	font-size: 28px;
+	margin-bottom: 20px;
+	-webkit-font-smoothing: subpixel-antialiased;
+	-webkit-text-stroke: 1px transparent;
+}
+
+.greetings p {
+	font-family: 'Abel', sans-serif;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+.greetings a.cta {
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+@media (min-width: 1024px) {
+	.greetings {
+		height: 100vh;
+	}
+
+	.greetings-wrapper {
+		height: 100%;
+		padding: 0px;
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.greetings-content {
+		margin-left: 5vw;
+		padding: 40px 0px 0px 30px;
+		height: 100%;
+		width: 50%;
+	}
+
+	.greetings-graphics {
+		width: 50%;
+		order: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.greetings-graphics > img {
+		position: relative;
+		left: -15vw;
+		height: 85vh;
+	}
+
+	.greetings h2 {
+		font-size: 48px;
+	}
+
+	.greetings p {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 1024px) and (orientation: landscape) {
+	.greetings {
+		height: 100%;
+	}
+
+	.greetings-wrapper {
+		height: 100%;
+		padding: 0px;
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.greetings-content {
+		margin-left: 5vw;
+		padding: 5em 0em 2em 0.5em;
+		height: 100%;
+		width: 50%;
+	}
+
+	.greetings-graphics {
+		width: 50%;
+		order: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.greetings-graphics > img {
+		position: relative;
+		left: -10vw;
+		top: -5em;
+		height: 85vh;
+	}
+
+	.greetings h2 {
+		font-size: 1.6em;
+	}
+
+	.greetings p {
+		font-size: 1em;
+	}
+}
