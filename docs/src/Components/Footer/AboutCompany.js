@@ -5,7 +5,7 @@ const AboutCompany = () => {
 	return (
 		<div className={styles.company}>
 			<img src={logo} alt="Toppings Logo" draggable="false"></img>
-			<p>We are on a mission to make your life easier.</p>
+			<p>We work hard, so you don't have to.</p>
 			<div className={styles.social}>
 				<a
 					href="https://github.com/darhkvoyd/toppings"
